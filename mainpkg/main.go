@@ -33,8 +33,8 @@ func main() {
 		Vitals: bodyVitals{
 			Height: 100,
 			Weight: 100,
-			Eyes:   "Green",
-			Hair:   "Black",
+			Eyes:   "Navy",
+			Hair:   "Purple",
 			BMI:    100,
 		},
 	}
