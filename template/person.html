@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person Template</title>
+  </head>
+  <body>
+    <h2>Create A Person</h2>
+    <h6>{{.Name}}</h6>
+    <ul>
+      <li>Age:{{.Age}} years</li>
+
+      <li>
+        Vitals
+        <ul>
+          <li>Height: {{.Vitals.Height}} inches</li>
+          <li>Weight: {{.Vitals.Height}} pounds</li>
+          <li>Eye Color: {{.Vitals.Eyes}}</li>
+          <li>Hair Color: {{.Vitals.Hair}}</li>
+          <li>Body Mass Index: {{.Vitals.BMI}}</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
