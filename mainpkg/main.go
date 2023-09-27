@@ -31,11 +31,11 @@ func main() {
 		Age:  33,
 
 		Vitals: bodyVitals{
-			Height: 65,
-			Weight: 190,
+			Height: 100,
+			Weight: 100,
 			Eyes:   "Green",
 			Hair:   "Black",
-			BMI:    13.2,
+			BMI:    100,
 		},
 	}
 
